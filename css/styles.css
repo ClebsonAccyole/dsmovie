@@ -7,6 +7,7 @@
     --color-primary: #4D41C0;
     --white: #fff;
     --text-light-gray: #aaa;
+    --star-yellow: #ffbb3a;
 }
 
 * {
@@ -84,7 +85,7 @@ a, a:hover {
     align-items: center;
     justify-content: space-between;
     border-radius: 0 0 8px 8px;
-    min-height: 150px;
+    height: 220px;
 
 }
 .dsmovie-card-descrition h3 {
@@ -93,6 +94,29 @@ a, a:hover {
     margin-bottom: 25px;
     text-align: center;
 }
+
+.dsmovie-card-destription-botton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dsmovie-card-destription-botton {
+    font-size: 16px;
+    font-weight: 700px;
+    color: var(--star-yellow);
+
+}
+
+.dsmovie-card-destription-botton img {
+    width: 22px;
+}
+    .dsmovie-card-destription-botton p {
+        font-size: 12px;
+        font-weight: 400px;
+        color: var(--text-light-gray);
+        margin-bottom: 10px;
+    }
 
 .dsmovie-btn, dsmovie-btn:hover {
     width: 180px;
@@ -136,6 +160,7 @@ a, a:hover {
    margin-bottom: 20px;
 
 } 
+
 .dsmovie-form-group {
     margin-bottom: 20px;
 }
